@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gato{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contenedorPrincipalGato{
+    display: inline;
+    justify-content: center;
+    width: 95%;
+    height: auto;
+    border: solid 3px #FA991C;
+    box-shadow: 0 0 20px #FA991C;
+    border-radius: 7px;
+}
+.contenedorPrincipalGato .encabezadoGato {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.contenedorPrincipalGato .encabezadoGato .rightGato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Irish Grover', cursive, monospace;
+}
+.contenedorPrincipalGato .encabezadoGato .rightGato h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Irish Grove', cursive, monospace;
+}
+.contenedorPrincipalGato .encabezadoGato .leftGato {
+    width: 100%;
+    height: 47vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.contenedorPrincipalGato .encabezadoGato .leftGato img {
+    width: 100%;
+    height: auto;
+}
+.contenedorPrincipalGato .barraFiltrosGato{
+    display: flex;
+    justify-content: center;
+}
+.contenedorPrincipalGato .barraFiltrosGato .filtrosGato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    border-radius: 7px;
+
+}
+.filtrosGato .filtroGato{
+    width: 20%;
+    height: 7vh;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FA991C;
+}
+.barraFiltrosGato .filtrosGato .limpiarFiltrosGato{
+    background-color: #1C768F;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.contenedorPrincipalGato .productosGato{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.contenedorPrincipalGato .productosGato .productoGato{
+    display: inline;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+    width: 25%;
+    height: 70vh;
+    border: solid 1px #1C768F;
+    box-shadow: 0 0 20px #1C768F;
+    border-radius: 7px;
+    background-color: #FBF3F2;
+    text-align: center;
+    font-family: 'Itim';
+    
+}
+.contenedorPrincipalGato .productosGato .productoGato .imagenProductoGato{
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    width: 100%;
+    height: 40vh;
+
+}
+.contenedorPrincipalGato .productosGato .productoGato .imagenProductoGato img{
+    display: inline;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.contenedorPrincipalGato .productosGato .productoGato .presentacionesGato{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Itim';
+    margin-top: 5%;
+
+}
+.contenedorPrincipalGato .productosGato .productoGato .presentacionesGato .presentacionGato{
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: #1C768F;
+    width: max-content;
+    color: white;
+    font-weight:300;
+}
+
+.contenedorPrincipalGato .productosGato .productoGato h5{
+    margin-top: 2%;
+}
+
+.contenedorPrincipalGato .productosGato .productoGato .agregarCarritoGato{
+    margin-top: 20px;
+    border: solid 1px black;
+    border-radius: 7px;
+    background-color: #1C768F;
+    width: 85%;
+    height: 7vh;
+    color: white;
+    font-weight:300;
+}

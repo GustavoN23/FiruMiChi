@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Itim',cursive;
+    src: local('Itim-Regular') url('../fuentes/Itim-Regular.ttf') format('truetype');
+}
+
+.main-containerHome
+{
+   display: flex;
+   justify-content: center; 
+   background-color: #FBF3F2;
+   padding: 20px;
+}
+
+
+.contenedorPrincipalHome{
+    width: 95% ;
+    height: auto;
+    display: grid;
+    padding: 20px;
+    padding-left: 100px;
+    background-color:#FBF3F2;
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #fa991c;
+    border-radius: 20px;
+}
+
+.solotexto{
+    text-decoration: none;
+}
+
+.plantillaHome{
+    width: 70%;
+    height: 300px;
+    padding: 20px;
+    color:black;
+    background-color:#FBF3F2;
+    border-radius: 8px;
+    justify-self: center;
+    box-shadow: 0 0 10px #242220
+    
+}
+
+.plantillaHome .imgPlantillaHome {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.plantillaHome .parrafoPlantillaHome {
+    
+    font-family: 'Irish Grover',cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+@media (max-width: 576px){ /*para celulares*/
+    .contenedorPrincipalHome{
+        grid-template-columns: repeat(1fr);
+    }
+    
+}
+
+@media (min-width: 577px) and (max-width:991px){ /*para tablets*/
+    .contenedorPrincipalHome{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .plantillaHome .parrafoPlantillaHome{
+       font-size: 1rem; 
+    }
+}
+
+@media (min-width:992px) { /*para pc*/
+    .contenedorPrincipalHome{
+        grid-template-columns: repeat(3,1fr);      
+    }
+}
+
+
+

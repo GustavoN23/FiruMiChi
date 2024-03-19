@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cuidados h1{
+    font-size: 45px;
+    font-family: 'Irish Grover', cursive, monospace;
+    text-align: center;
+}
+.cuidados .contenedorPrincipalCuidados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    
+}
+.cuidados .contenedorPrincipalCuidados .carrusel{
+    width: 95%;
+}
+.cuidados .contenedorPrincipalCuidados .carrusel .slide{
+    width: 100%;
+    height: 45vh;
+}
+.cuidados .contenedorPrincipalCuidados .carrusel .slide img{
+    width: 100%;
+    height: 100%;
+}
+.cuidados .tarjetasCuidados{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+.cuidados .tarjetasCuidados .peluqueria,
+.cuidados .tarjetasCuidados .paseadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    width: 25%;
+    height: auto;
+    border: solid 1px black;
+    border-radius: 7px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.cuidados .tarjetasCuidados .peluqueria .imagenPeluqueria,
+.cuidados .tarjetasCuidados .paseadores .imagenPaseadores{
+    width: 80%;
+    height: auto;
+}
+.cuidados .tarjetasCuidados .peluqueria .imagenPeluqueria img,
+.cuidados .tarjetasCuidados .paseadores .imagenPaseadores img{
+    width: 100%;
+    object-fit: scale-down;
+}
+.cuidados .tarjetasCuidados .peluqueria .botonesPeluqueria,
+.cuidados .tarjetasCuidados .paseadores .botonesPaseadores{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 15px;
+}
+.cuidados .tarjetasCuidados .peluqueria .botonesPeluqueria .peluqueriaGato,
+.cuidados .tarjetasCuidados .paseadores .botonesPaseadores .paseadoresGato{
+    background-color: #FA991C;
+    color: white;
+
+}
+.cuidados .tarjetasCuidados .peluqueria .botonesPeluqueria .peluqueriaPerro,
+.cuidados .tarjetasCuidados .paseadores .botonesPaseadores .paseadoresPerro{
+    background-color: #1C768F;
+    color: white;
+}

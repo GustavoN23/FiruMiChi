@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+.contendorPrincipalVeterinaria {
+    width: 98%;
+    margin: 15px;
+    border: solid 2px #FA991C;
+    box-shadow: 0px 0px 20px #FA991C;
+    border-radius: 20px;
+    background-color: #FBF3F2;
+}
+
+.contendorPrincipalVeterinaria h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.7));
+
+}
+
+/* carrucel */
+.contendorPrincipalVeterinaria .contenedorCarruselVeterinaria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contendorPrincipalVeterinaria .carruselVeterinaria {
+    width: 95%;
+}
+
+.contendorPrincipalVeterinaria .carruselVeterinaria .slideVeteri img {
+    border-radius: 20px;
+    width: 100%;
+    max-height: 500px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri {
+    display: flex;
+    justify-content: center;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6DFDF;
+    border-radius: 20px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .imagenVeterinaria img {
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .ubicacionVeterinaria {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .ubicacionVeterinaria img {
+    width: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 20px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .informacionVeterinaria {
+    width: 300px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .informacionVeterinaria ul {
+    list-style: none;
+}
+
+
+/* las dos veteri de abajo */
+
+.contendorPrincipalVeterinaria .contenedorVeteri2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri2 .veteri2 .itemVeterinaria .contenedorImgVeteri img {
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+.contendorPrincipalVeterinaria .contenedorVeteri2 .veteri2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemVeterinaria {
+    width: 300px;
+    height: 300px;
+    background-color: #F6DFDF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contenedorListaVeterinaria {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorListaVeterinaria ul {
+    list-style: none;
+}
+
+@media (max-width: 1024px) {
+    .contendorPrincipalVeterinaria {
+        margin: 10px;
+    }
+
+    .contendorPrincipalVeterinaria .carruselVeterinaria .slide img {
+        max-height: 300px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 {
+        width: 600px;
+        max-width: 600px;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .imagenVeterinaria img{
+        width: 150px;
+        max-width: 150px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .ubicacionVeterinaria img {
+        width: 100px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .informacionVeterinaria {
+        width: 200px;
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .itemVeterinaria {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contenedorListaVeterinaria ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 700px) {
+    .contendorPrincipalVeterinaria {
+        margin: 5px;
+    }
+
+    .contendorPrincipalVeterinaria .carruselVeterinaria .slide img {
+        max-height: 300px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 {
+        width: 450px;
+        max-width: 450px;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .imagenVeterinaria img{
+        width: 150px;
+        max-width: 150px;
+        max-height: 150px;
+        display:flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .ubicacionVeterinaria img {
+        width: 80px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .informacionVeterinaria {
+        width: 200px;
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .itemVeterinaria {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contenedorListaVeterinaria ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .contendorPrincipalVeterinaria {
+        margin: 5px;
+    }
+
+    .contendorPrincipalVeterinaria .carruselVeterinaria .slide img {
+        max-height: 200px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 {
+        width: 350px;
+        height: 150px;
+        max-width: 350px;
+        max-height: 150px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .imagenVeterinaria img{
+        width: 90px;
+        max-width: 90px;
+        max-height: 90px;
+        
+
+    }
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .ubicacionVeterinaria img {
+        width: 80px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .contendorPrincipalVeterinaria .contenedorVeteri1 .contenedorVeteri .veteri1 .informacionVeterinaria {
+        width: 150px;
+        max-width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .itemVeterinaria {
+        width: 150px;
+        height: 150px;
+    }
+}

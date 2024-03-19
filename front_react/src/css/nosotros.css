@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+.Nprincipal{
+    background-color:#FBF3F2;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.contenedorPrincipalNosotros {
+    width: 98%;
+    padding: 20px;
+    padding-left: 30px;
+    box-shadow: 0px 0px 20px 0px #838989;
+    border-radius: 20px;
+    background-color: #FBF3F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedorPrincipalNosotros .tituloNosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+    background: linear-gradient(90deg,#1C768F, #FA991C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+
+}
+
+/* mision */
+.contenedorPrincipalNosotros .contenedorMisionNosotros {
+    width: 90%;
+    margin: 20px;
+    /* border: solid 2px #FA991C; */
+    box-shadow: 0px 0px 20px #FA991C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorPrincipalNosotros .contenedorMisionNosotros .contenedorTextoMision {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.contenedorPrincipalNosotros .contenedorMisionNosotros .contenedorTextoMision .pTextoMision {
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedorPrincipalNosotros .contenedorMisionNosotros .contenedorTextoMision .tituloMisionNosotros {
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1)); */
+    font-size: 50px;
+    /* color: #1C768F; */
+}
+
+.contenedorPrincipalNosotros .contenedorMisionNosotros .contenedorImagenMision {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedorPrincipalNosotros .contenedorMisionNosotros .contenedorImagenMision .imagenMision {
+    width: 300px;
+    height: 200px;
+    object-fit:scale-down;
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1)); */
+}
+
+/* vision */
+.contenedorPrincipalNosotros .contenedorVisionNosotros {
+    width: 90%;
+    margin: 20px;
+    /* border: solid 2px #1C768F; */
+    box-shadow: 0px 0px 20px #1C768F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorPrincipalNosotros .contenedorVisionNosotros .contenedorTextoVision {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.contenedorPrincipalNosotros .contenedorVisionNosotros .contenedorTextoVision .tituloVisionNosotros {
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1)); */
+    font-size: 50px;
+    /* color: #FA991C; */
+}
+
+.contenedorPrincipalNosotros .contenedorVisionNosotros .contenedorTextoVision .pTextoVision {
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedorPrincipalNosotros .contenedorVisionNosotros .contenedorImagenVision {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedorPrincipalNosotros .contenedorVisionNosotros .contenedorImagenVision .imagenVision {
+    width: 200px;
+    height: 200px;
+    object-fit:scale-down;
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1)); */
+}
+
+/* objetivos */
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros {
+    width: 90%;
+    margin: 20px;
+    /* border: solid 2px #1C768F; */
+    box-shadow: 0px 0px 20px #FA991C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorTextoObjetivo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorTextoObjetivo .tituloObjetivoNosotros {
+    padding-top: 10px;
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1)); */
+    font-size: 50px;
+    /* color: #032539; */
+
+}
+
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorTextoObjetivo .pTextoObjetivo {
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorTextoObjetivo .tituloValoresNosotros {
+    padding: 10px;
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1)); */
+    font-size: 50px;
+    /* color: #FA991C; */
+}
+
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorTextoObjetivo .listaValoresNosotros {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorImagenObjetivo {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorImagenObjetivo .imagenObjetivo {
+    width: 300px;
+    height: 300px;
+    object-fit:scale-down;
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1)); */
+}
+
+/* responsivo */
+
+@media (max-width: 720px) {
+    .contenedorPrincipalNosotros {
+        margin: 10px;
+        width: 95%;
+
+    }
+
+    .contenedorPrincipalNosotros .contenedorMisionNosotros {
+        padding: 20px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorMisionNosotros .contenedorImagenMision .imagenMision {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorVisionNosotros {
+        padding: 20px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorVisionNosotros .contenedorImagenVision .imagenVision {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorObjetivoNosotros {
+        padding: 20px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorTextoObjetivo {
+        padding: 20px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorImagenObjetivo .imagenObjetivo {
+        padding: 20px;
+        width: 250px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedorPrincipalNosotros {
+        margin: 10px;
+        width: 95%;
+
+    }
+
+    .contenedorPrincipalNosotros .contenedorMisionNosotros {
+        padding: 20px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorMisionNosotros .contenedorImagenMision .imagenMision {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorVisionNosotros {
+        padding: 20px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorVisionNosotros .contenedorImagenVision .imagenVision {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorObjetivoNosotros {
+        padding: 20px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorTextoObjetivo {
+        padding: 30px;
+    }
+
+    .contenedorPrincipalNosotros .contenedorObjetivoNosotros .contenedorImagenObjetivo .imagenObjetivo {
+        padding: 20px;
+        width: 150px;
+        height: 300px;
+    }
+}

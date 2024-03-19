@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+.contenedorPrincipalRegistro {
+    width: 98%;
+    margin: 15px;
+    /* border: solid 2px #1C768F; */
+    box-shadow: 0px 0px 20px #1C768F;
+    border-radius: 20px;
+    background-color: #FBF3F2;
+}
+
+.contenedorPrincipalRegistro .tituloRegistro {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #1C768F;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+
+}
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorImagenFormulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorImagenFormulario .imagenFormulario {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+
+}
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .tituloFormulario {
+    padding: 5px;
+    background: linear-gradient(90deg, #1C768F, #ed8a08);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+
+}
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+    width: 100%;
+    margin: 20px;
+    /* border: solid 2px #1C768F; */
+    box-shadow: 0px 0px 20px #1C768F;
+    border-radius: 20px;
+    background-color: #FBF3F2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo input {
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.contenedorPrincipalRegistro .contenedorBoton {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contenedorPrincipalRegistro .contenedorBoton .btnGuardar {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: green;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    margin:15px
+    
+}
+
+.contenedorPrincipalRegistro .contenedorBoton .btnGuardar:hover {
+    background-color: royalblue;
+}
+
+/* media */
+@media (max-width: 1920px) {
+    .contenedorPrincipalRegistro {
+        width: 98%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro {
+        width: 100%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+        width: 70%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo input {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .contenedorPrincipalRegistro {
+        width: 97%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro {
+        width: 100%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+        width: 60%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo input {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .contenedorPrincipalRegistro {
+        width: 97%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro {
+        width: 100%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+        width: 60%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contenedorPrincipalRegistro {
+        width: 97%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro {
+        width: 100%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+        width: 50%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo input {
+        width: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contenedorPrincipalRegistro {
+        width: 96%;
+
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro {
+        width: 100%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+        width: 45%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 620px) {
+    .contenedorPrincipalRegistro {
+        width: 95%;
+
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro {
+        width: 100%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos {
+        width: 40%;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorCampo input {
+        width: 150px;
+    }
+
+    .contenedorPrincipalRegistro .formularioRegistro .contenedorFormularioRegistro .formularioRegistroCampos .contenedorImagenFormulario .imagenFormulario {
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+
+    }
+
+}

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.infoCuenta {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 1%;
+}
+
+.infoCuenta .contenedorPrincipalInfoCuenta {
+    width: 65%;
+    text-align: center;
+    padding: 2%;
+    height: auto;
+    border: solid 3px #1C768F;
+    box-shadow: 0 0 20px #1C768F;
+    border-radius: 7px;
+}
+
+.infoCuenta .contenedorPrincipalInfoCuenta .propietarioInfoCuenta {
+    width: 100%;
+    height: 50vh;
+    padding: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    border: solid 3px #FA991C;
+    box-shadow: 0 0 10px #FA991C;
+}
+
+.contenedorPrincipalInfoCuenta .propietarioInfoCuenta .fotoPropietarioInfoCuenta {
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    background-color: white;
+}
+
+.contenedorPrincipalInfoCuenta .propietarioInfoCuenta .fotoPropietarioInfoCuenta img {
+    width: 90%;
+    height: 90%;
+}
+
+.contenedorPrincipalInfoCuenta .propietarioInfoCuenta .infoPropietarioInfoCuenta {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-family: 'Irish Grover', cursive, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.contenedorPrincipalInfoCuenta .propietarioInfoCuenta .infoPropietarioInfoCuenta .formularioPropietario {
+    width: 100%;
+}
+
+.contenedorPrincipalInfoCuenta .propietarioInfoCuenta .infoPropietarioInfoCuenta .formularioPropietario div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+
+.contenedorPrincipalInfoCuenta .propietarioInfoCuenta .infoPropietarioInfoCuenta .formularioPropietario input {
+    background-color: #FBF3F2;
+    width: 50%;
+    height: 5vh;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.infoCuenta .contenedorPrincipalInfoCuenta .mascotaInfoCuenta {
+    width: 100%;
+    height: 50vh;
+    padding: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    border: solid 3px #1C768F;
+    box-shadow: 0 0 10px #1C768F;
+}
+
+.contenedorPrincipalInfoCuenta .mascotaInfoCuenta .fotoMascotaInfoCuenta {
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    background-color: white;
+}
+
+.contenedorPrincipalInfoCuenta .mascotaInfoCuenta .fotoMascotaInfoCuenta img {
+    width: 90%;
+    height: 90%;
+}
+
+.contenedorPrincipalInfoCuenta .mascotaInfoCuenta .infoMascotaInfoCuenta {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-family: 'Irish Grover', cursive, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.contenedorPrincipalInfoCuenta .mascotaInfoCuenta .infoMascotaInfoCuenta .formularioMascotaInfoCuenta {
+    width: 100%;
+}
+
+.contenedorPrincipalInfoCuenta .mascotaInfoCuenta .infoMascotaInfoCuenta .formularioMascotaInfoCuenta div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+
+.contenedorPrincipalInfoCuenta .mascotaInfoCuenta .infoMascotaInfoCuenta .formularioMascotaInfoCuenta input,
+.contenedorPrincipalInfoCuenta .mascotaInfoCuenta .infoMascotaInfoCuenta .formularioMascotaInfoCuenta select {
+    background-color: #FBF3F2;
+    width: 50%;
+    height: 5vh;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.infoCuenta .contenedorPrincipalInfoCuenta .guardar {
+    background-color: #1C768F;
+    color: white;
+    border: white 1px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    position: relative;
+}
